@@ -10,7 +10,7 @@ import SwiftUI
 struct MapViewActionButton: View {
     var body: some View {
         Button {
-            <#code#>
+            
         } label: {
             Image(systemName: "line.3.horizontal")
                 .font(.title2)
