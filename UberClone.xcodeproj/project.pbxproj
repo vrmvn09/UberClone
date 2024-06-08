@@ -15,6 +15,7 @@
 		9D66F3EE2C1362AA008103F3 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F3ED2C1362AA008103F3 /* LocationSearchView.swift */; };
 		9D66F3F02C137DD4008103F3 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F3EF2C137DD4008103F3 /* LocationSearchResultCell.swift */; };
 		9D66F3F22C142FA0008103F3 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D66F3F12C142FA0008103F3 /* LocationSearchViewModel.swift */; };
+		9D66F3F52C147659008103F3 /* YandexMapsMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 9D66F3F42C147659008103F3 /* YandexMapsMobile */; };
 		9DDD305C2C10A34000150F5A /* UberCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD305B2C10A34000150F5A /* UberCloneApp.swift */; };
 		9DDD30602C10A34200150F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD305F2C10A34200150F5A /* Assets.xcassets */; };
 		9DDD30632C10A34200150F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD30622C10A34200150F5A /* Preview Assets.xcassets */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D66F3F52C147659008103F3 /* YandexMapsMobile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +194,9 @@
 			dependencies = (
 			);
 			name = UberClone;
+			packageProductDependencies = (
+				9D66F3F42C147659008103F3 /* YandexMapsMobile */,
+			);
 			productName = UberClone;
 			productReference = 9DDD30582C10A34000150F5A /* UberClone.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 9DDD304F2C10A34000150F5A;
+			packageReferences = (
+				9D66F3F32C147658008103F3 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */,
+			);
 			productRefGroup = 9DDD30592C10A34000150F5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -462,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D66F3F32C147658008103F3 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/c-villain/YandexMapsMobile";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D66F3F42C147659008103F3 /* YandexMapsMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D66F3F32C147658008103F3 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */;
+			productName = YandexMapsMobile;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DDD30502C10A34000150F5A /* Project object */;
 }
