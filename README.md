@@ -46,31 +46,15 @@ UberClone is a SwiftUI-based iOS application that mimics the functionality of th
 - View the dynamically calculated price for the selected ride type.
 - Confirm the ride by tapping the "CONFIRM RIDE" button.
 
-## Code Overview
-
-### RideRequestView.swift
-
-This file contains the main view for the ride request screen. It includes subviews for displaying trip information, ride type selection, payment options, and the confirmation button.
-
-### Double+Extensions.swift
-
-This file contains an extension for the `Double` type to format numbers as currency using a custom `NumberFormatter` set to the `en_US` locale to ensure prices are displayed in USD.
-
-### LocationSearchViewModel.swift
-
-This file contains the view model for handling location search and selection. It manages the current location, selected destination, pickup time, and drop-off time.
-
-### RideType.swift
-
-This file defines the `RideType` enum, which includes different types of rides (e.g., UberX, UberXL) and their associated images and descriptions.
-
-## Customization
-
-To customize the app, you can modify the ride types, update the images, or change the styling of the views. Adjust the `RideType` enum and update the assets in the `Assets.xcassets` folder as needed.
-
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
+We welcome contributions to UberClone! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request. Here’s how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
 ## License
 
