@@ -12,7 +12,7 @@ UberClone is a SwiftUI-based iOS application that mimics the functionality of th
 ## Screenshots
 
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
   <img src="UBER1.png" alt="Screenshot1" width="200"/>
   <img src="UBER2.png" alt="Screenshot2" width="200"/>
 </div>
